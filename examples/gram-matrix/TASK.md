@@ -1,0 +1,1 @@
+Revise this raw model output into a readable research passage for an ML audience. Check the mathematics and preserve the useful result. Return the passage and a brief account of scientific changes. You may derive a correction, but label the correction and explain it. Use only the supplied material and elementary linear algebra.

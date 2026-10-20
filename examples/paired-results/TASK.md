@@ -1,0 +1,1 @@
+Turn the draft and synthetic CSV into a clear results passage for a research article. Verify the numbers. Preserve the scope of the experiment. Return the passage and a short account of edits and calculations. Use only these files.

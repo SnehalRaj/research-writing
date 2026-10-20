@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Writing"
+  short_description: "Write clear research articles from evidence"
+  default_prompt: "Use $research-writing to revise this research draft while preserving its claims and evidence."

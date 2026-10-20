@@ -1,0 +1,9 @@
+{
+  "name": "research-writing",
+  "version": "0.1.0",
+  "description": "Write readable research articles from drafts, proofs and data.",
+  "author": {
+    "name": "Snehal Raj"
+  },
+  "license": "MIT"
+}
