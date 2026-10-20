@@ -1,0 +1,222 @@
+[
+  {
+    "id": "T01",
+    "title": "Empty requirement",
+    "adaptation": "original synthetic adaptation",
+    "context": "A methods paragraph has already given every assumption used in the comparison. This closing sentence supplies no further condition, example or action.",
+    "text": "A fair evaluation must consider data access, reported outputs and statistical precision.",
+    "expected_finding": "cut",
+    "reason": "The sentence repeats an unused generic requirement.",
+    "preserve": "Keep the comparison assumptions already used in the argument.",
+    "rules": [
+      "X01"
+    ]
+  },
+  {
+    "id": "T02",
+    "title": "Necessary theorem condition",
+    "adaptation": "original synthetic adaptation",
+    "context": "A displayed bound contains 1/q. The proof assumes a strictly positive lower bound q0.",
+    "text": "The estimate holds for success probabilities q >= q0 > 0.",
+    "expected_finding": "keep",
+    "reason": "The lower bound is necessary for the stated estimate.",
+    "preserve": "Retain q0, positivity and the denominator step that uses them.",
+    "rules": [
+      "C02",
+      "X05"
+    ]
+  },
+  {
+    "id": "T03",
+    "title": "Finite evidence expanded to a theorem",
+    "adaptation": "original synthetic adaptation",
+    "context": "The study reports initial gradient variance for simulated systems from 8 to 40 qubits. It supplies no asymptotic proof.",
+    "text": "These runs reached 40 qubits and therefore prove the model remains trainable at every size.",
+    "expected_finding": "clarify",
+    "reason": "The universal trainability conclusion exceeds the finite initial-gradient evidence.",
+    "preserve": "Keep the tested sizes, initial gradient variance and observed trend.",
+    "rules": [
+      "C01",
+      "C02"
+    ]
+  },
+  {
+    "id": "T04",
+    "title": "Component transfer scope",
+    "adaptation": "original synthetic adaptation",
+    "context": "A proposition permits transfer of feature parameters because the feature module has fixed size. Its classifier has separate size-dependent parameters.",
+    "text": "The fixed feature module allows its learned parameters to transfer to larger instances.",
+    "expected_finding": "keep",
+    "reason": "The statement stays within the component covered by the proposition.",
+    "preserve": "Retain the component boundary and the proposition assumptions.",
+    "rules": [
+      "C01",
+      "C02"
+    ]
+  },
+  {
+    "id": "T05",
+    "title": "Unused fact in a sequence",
+    "adaptation": "original synthetic adaptation",
+    "context": "The section asks why a predictor scales. The revenue statement has no later use in this argument.",
+    "text": "The predictor improves test error. Its supplier also reports increased revenue.",
+    "expected_finding": "cut",
+    "reason": "The revenue statement has no job in the research argument.",
+    "preserve": "Keep the measured prediction evidence. Remove only the unused fact.",
+    "rules": [
+      "N02",
+      "X01"
+    ]
+  },
+  {
+    "id": "T06",
+    "title": "Finite trend with explicit scope",
+    "adaptation": "original synthetic adaptation",
+    "context": "The cited plot reports initial gradient variance for the stated finite set of system sizes.",
+    "text": "Initial gradient variance stays similar across the sizes in this study.",
+    "expected_finding": "keep",
+    "reason": "The text states its empirical range and statistic.",
+    "preserve": "Keep that range and statistic. Add a concrete limitation only when the evidence requires one.",
+    "rules": [
+      "N05",
+      "C01"
+    ]
+  },
+  {
+    "id": "T07",
+    "title": "Approved repetition",
+    "adaptation": "original synthetic adaptation",
+    "context": "The author accepted a conclusion that repeats two current research questions before answering each one.",
+    "text": "The conclusion returns to both research questions and presents the corresponding results.",
+    "expected_finding": "keep",
+    "reason": "The repetition serves an approved reading task.",
+    "preserve": "Keep the approved question wording, current source version and acceptance scope.",
+    "rules": [
+      "N06",
+      "P01"
+    ]
+  },
+  {
+    "id": "T08",
+    "title": "Duplicate roadmap",
+    "adaptation": "original synthetic adaptation",
+    "context": "Adjacent sections each give the same paper outline. Both serve navigation alone. The author requested compression.",
+    "text": "The next paragraph repeats the full section sequence stated immediately above.",
+    "expected_finding": "cut",
+    "reason": "The repeated paragraph supplies the same reading guide.",
+    "preserve": "Retain one accurate guide at the place where the reader needs it.",
+    "rules": [
+      "X04"
+    ]
+  },
+  {
+    "id": "T09",
+    "title": "Undefined acronym",
+    "adaptation": "original synthetic adaptation",
+    "context": "This is the first occurrence at the intended reader's entry point. The method has no earlier accessible definition.",
+    "text": "APS improves the reported prediction scores.",
+    "expected_finding": "clarify",
+    "reason": "The reader needs the method name and identity at first use.",
+    "preserve": "Expand Adaptive Projection Sampling, identify its role and retain only the supported result.",
+    "rules": [
+      "E02"
+    ]
+  },
+  {
+    "id": "T10",
+    "title": "Appendix detail",
+    "adaptation": "original synthetic adaptation",
+    "context": "The main text explains the estimator result and links to the appendix. The appendix contains the full proof and required assumptions.",
+    "text": "The appendix derives the estimator and states the conditions for each step.",
+    "expected_finding": "keep",
+    "reason": "The detailed derivation serves the appendix's checking role.",
+    "preserve": "Keep the assumptions and full derivation. Match detail to this section's purpose.",
+    "rules": [
+      "X03",
+      "V03"
+    ]
+  },
+  {
+    "id": "T11",
+    "title": "Vague mechanism",
+    "adaptation": "original synthetic adaptation",
+    "context": "The next paragraph must explain how a sampler turns measured outcomes into a prediction. Its model record gives the actual mechanism.",
+    "text": "Our design clarifies the prediction interface.",
+    "expected_finding": "clarify",
+    "reason": "The text leaves the operation and output unnamed.",
+    "preserve": "State the model's actual sampling operation and prediction output.",
+    "rules": [
+      "E01",
+      "L01"
+    ]
+  },
+  {
+    "id": "T12",
+    "title": "Predictor identity conflict",
+    "adaptation": "original synthetic adaptation",
+    "context": "The supplied code averages simulated amplitude vectors before applying a nonlinear output function. It supplies no device density-mixture experiment.",
+    "text": "The device experiment evaluates a mixture of density operators.",
+    "expected_finding": "verify",
+    "reason": "The predictor and evidence type conflict with the implementation.",
+    "preserve": "Retain reported numerical values while their computation remains undisputed. Reconcile model identity before revising the account.",
+    "rules": [
+      "C04"
+    ]
+  },
+  {
+    "id": "T13",
+    "title": "Copied theorem with missing input convention",
+    "adaptation": "original synthetic adaptation",
+    "context": "The source proof establishes equivariance for an augmented input whose edge schedule is transported under relabelling.",
+    "text": "The source theorem gives equivariance for every unaugmented graph input.",
+    "expected_finding": "clarify",
+    "reason": "The claim omits the transported schedule needed by the proof.",
+    "preserve": "Keep the valid theorem, augmented input and transport convention.",
+    "rules": [
+      "C02",
+      "C03"
+    ]
+  },
+  {
+    "id": "T14",
+    "title": "Unauthorised result replacement",
+    "adaptation": "original synthetic adaptation",
+    "context": "The author requested wording and layout edits. An editor proposes replacing the approved result plot with a fresh local run.",
+    "text": "Replace the main result plot with the new simulation output.",
+    "expected_finding": "ask-author",
+    "reason": "A result replacement exceeds the authorised task.",
+    "preserve": "Keep the approved asset while the author reviews the new run, version and purpose.",
+    "rules": [
+      "P02",
+      "P04"
+    ]
+  },
+  {
+    "id": "T15",
+    "title": "Research reason lost in compression",
+    "adaptation": "original synthetic adaptation",
+    "context": "The author approved a reason for using simulation: it permits controlled comparisons. The revision brief asks for connected prose.",
+    "text": "The shortened opening removes the controlled-comparison reason.",
+    "expected_finding": "clarify",
+    "reason": "The cut removes an approved part of the research argument.",
+    "preserve": "Restore that reason and remove a separate redundancy if needed.",
+    "rules": [
+      "N03",
+      "L03"
+    ]
+  },
+  {
+    "id": "T16",
+    "title": "Concrete metric limit",
+    "adaptation": "original synthetic adaptation",
+    "context": "A reported comparison uses a score computed only from coefficient magnitudes.",
+    "text": "Flipping coefficient signs leaves this magnitude-based score unchanged.",
+    "expected_finding": "keep",
+    "reason": "The sentence gives the exact information limit of the score.",
+    "preserve": "Retain the distinction between magnitude agreement and sign agreement.",
+    "rules": [
+      "X05",
+      "C04"
+    ]
+  }
+]

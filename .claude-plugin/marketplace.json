@@ -8,7 +8,7 @@
       "name": "research-writing",
       "source": "./plugins/research-writing",
       "description": "Write readable research articles from drafts, proofs and data.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

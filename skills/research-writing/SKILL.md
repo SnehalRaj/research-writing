@@ -4,119 +4,94 @@ description: Use when turning raw research notes, model drafts, theorem statemen
 license: MIT
 metadata:
   author: Snehal Raj
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Research writing
 
-Help the reader understand the question, the research choice and what the evidence establishes.
-Preserve the author's scientific contribution and voice.
+Use this skill to explain research from its actual contributions, definitions and evidence.
+Read the complete target and agreed scientific sources before judging the structure.
+Use current author instructions and accepted passages as the authority on voice.
+Keep author acceptance tied to the exact reviewed unit and version.
 
-## Establish the task
+## Choose the stage
 
-Read the complete target before judging its structure or style.
-Read the sources needed for the claims you will change.
-Use existing author instructions and accepted passages as the authority on voice.
-Record the audience, output format, source version and permitted changes.
-Save a recoverable baseline before a substantial revision.
-Restore the author's chosen baseline if they reject the direction.
-Infer routine choices from the material. Ask only when a missing answer affects the work.
-A request to revise a complete draft authorises a complete review draft.
-Keep final author acceptance separate from permission to draft.
+For new material, complete the preparation packet before a narrative, rewrite or expert critic assignment.
+For a local edit, update the affected claims and dependencies within their full context.
+A request to revise a full draft authorises a complete review draft.
+Follow any narrower sequence the author requests. Keep unaccepted comparison drafts distinct.
 
-For a local edit, inspect its context, apply the change and check the affected text.
-Use the wider procedure when claims, dependencies or the argument change.
+1. Establish the audience, source boundary, versions and permitted changes.
+2. Read the sources and extract every contribution candidate with its owner, work status and evidence status.
+3. Define the objects and map their dependencies. Study complete accepted author units when matching a style.
+4. Build the narrative and paragraph jobs from those inventories.
+5. Revise coherent units within the authorised scope, then review and verify the result.
 
-## Establish the scientific account
+Use [the method](references/method.md) for the full sequence and its decision boundaries.
+Use [the preparation template](references/templates/03-contributions-and-definitions.md) for steps 1 to 3.
+It retains implemented work, measured findings, proposed studies and unresolved claims as distinct entries.
+Use [the author-style guide](references/author-style.md) to study how the author introduces ideas and defines objects.
 
-Classify each important claim: definition, theorem, literature result, observation, interpretation or proposal.
-Record its source, assumptions and tested scope in concise working notes.
-Separate the specified method, implemented method and measured result.
-A readable proposal remains a proposal until evidence establishes its answer.
+## Load the relevant detail
 
-Read [science.md](references/science.md) for proofs, raw data, experimental comparisons or source conflicts.
-Use elementary independent checks when they can resolve a specific doubt.
-Keep failed cases and their tolerances.
-Treat model agreement as reviewer feedback with its own limits.
-A successful finite check supports the tested cases.
+Read [the writing standard](references/writing-standard.md) before substantial prose work.
+It preserves the full author profile, sentence rules, detailed AI tics and scientific exceptions.
+Then select the references the task needs:
 
-When an input claim fails, record the reason and the smallest defensible repair.
-Preserve the original in the change record.
-Apply a scientific correction when the task authorises it.
-Otherwise flag the issue and continue independent editorial work.
-Keep unsupported claims visibly pending in the working record.
+| Task | Read |
+|---|---|
+| Question, contribution and section order | [Research argument](references/rules/01-research-argument.md) |
+| Purpose, first definitions and paragraph connections | [Exposition and terminology](references/rules/02-exposition-and-terminology.md) |
+| Theorems, raw data, source conflicts and tested scope | [Claims, proofs and evidence](references/rules/03-claims-proofs-evidence.md) |
+| Compression, source detail and article length | [Editing and compression](references/rules/04-editing-and-compression.md) |
+| Figures, tables, proof placement and rendered output | [Figures and proofs](references/rules/05-figures-and-proof-presentation.md) |
+| Baseline recovery, author decisions and acceptance | [Author control](references/rules/06-author-control-and-revision.md) |
+| Adapt a thesis method to a research article | [Paper adaptation](references/rules/07-adapting-the-method-to-papers.md) |
+| Narrative and paragraph working forms | [Narrative templates](references/templates/01-narrative-and-paragraphs.md) |
+| Claims, revisions and exact acceptance records | [Claim and revision templates](references/templates/02-claims-and-revisions.md) |
+| Expert review after the inventories | [Critic briefs](references/critics/README.md) |
 
-## Build the argument
+The [rule catalogue](references/transfer-catalog.json) lists all 32 stable rules and their preservation checks.
+Use the [transfer index](references/transfer-index.md) to locate teaching cases and the detailed source coverage.
+Load a teaching case when the task has that specific failure pattern.
 
-Write a short brief in working notes:
+## Preserve the science and the author's choices
 
-- What question does the reader need answered, and why does it matter?
-- What answer can the available contribution and evidence support?
+Separate a specified method, an implementation, a source-reported finding and an independently checked result.
+Keep the assumptions, quantifiers, comparator, metric and tested range that make a claim true.
+Treat model agreement as review evidence with its own limits.
+Retain failed cases and numerical tolerances. A finite check covers the tested cases.
+Record source conflicts and the smallest defensible repair. Keep the original in the change record.
+Apply scientific changes within the task's authority. Flag open questions and continue independent editorial work.
 
-Use the author's account of the research choice when it is available.
-Ask for the missing reason when the material leaves that choice unclear.
-Give each section a reader question and each paragraph a distinct purpose.
-Explain why the method follows from the problem and why the result answers the question.
-Name the relation between neighbouring sentences. Supply a missing reason before cutting words.
-Avoid a fixed template when the contribution needs a different order.
+Introduce the purpose before the construction and the construction before a performance claim relies on it.
+Define terms and symbols at first use. Explain what an equation does and what follows from it.
+Supply missing reasoning between sentences before cutting words.
+Keep a destination for every necessary result, figure, condition and proof.
+Preserve source identities and experimental assets. A convenient local file cannot silently replace the cited experiment.
+Keep editorial history in working notes. Keep scientific limits and reproducibility details where readers need them.
 
-Introduce the model or mechanism before its parts.
-Define terms and symbols at first use.
-Explain an equation's purpose before displaying it and its consequence afterwards.
-Keep the facts needed to follow a correction in the research passage itself.
-A short counterexample belongs there when it explains why the corrected condition is needed.
-Use precise scientific terms when plain substitutes would change the meaning.
-Put the scientific point before the figure reference.
+## Review and deliver
 
-Preserve a destination for each essential result, figure, condition and proof.
-Move long derivations or settings when a supplement serves the reader.
-Keep the construction and evidence needed to understand the main claim accessible.
+Choose critics after the contribution and definition inventories exist.
+Give them the evidence map, author profile and protected decisions.
+Require exact passages, reasons and support. Include reasons to retain useful text.
+Check both unsupported additions and loss of contributions.
+Resolve scientific disputes through sources or calculations and style choices through the author brief.
 
-## Revise the prose
+Verify citations, labels, numbers, source identity and the final rendered version as the task requires.
+Inspect changed pages and their neighbours. Inspect the full output after a complete rewrite.
+Record evidence, editorial and layout checks separately.
+A clean build establishes successful compilation. Final acceptance still belongs to the author.
 
-Read [prose.md](references/prose.md) before a substantial rewrite.
-Use a clear actor and an exact verb.
-Lead results with the supported finding, including its comparison and scope.
-Connect the sentences so readers can follow the reasoning.
-Cut repeated jobs, empty significance claims and routine narration about the editing process.
-Retain conditions and limitations that change the scientific meaning.
-State useful future work as a specific study with a purpose.
+Deliver the requested artifact, the important changes and necessary open questions.
+Keep self-ratings and review forms in working notes.
+Stop after the authorised revision, review and repair pass.
+Reopen accepted text when a new instruction or evidence requires it.
 
-Keep the author list, numerical results, source identities and result assets unless the task authorises changes.
-A new dataset or script does not silently replace the cited experiment.
-Keep provenance, editorial history and unresolved checks in working records.
-Keep the scientific limits, citations and reproducibility details where readers need them.
+## Worked material
 
-## Review and verify
+The repository has two synthetic worked examples: `examples/gram-matrix/` and `examples/paired-results/`.
+The installed skill also includes eight revision lessons, eight boundary lessons and sixteen critic contrast cases.
+Its [feedback lessons](references/cases/04-feedback-lessons.md) retain all 66 coded editorial lessons in a privacy-safe form.
 
-Read [review.md](references/review.md).
-For figures, formal results or typeset output, also read [presentation.md](references/presentation.md).
-Review scientific support, argument, exposition and rendered presentation separately.
-A critic reports the exact passage, the reason and the relevant evidence.
-A critic can recommend keeping a passage.
-Check both unsupported additions and the loss of useful contributions.
-Resolve factual disputes through sources or calculations.
-Use the author's brief to settle matters of taste.
-
-Run available checks for citations, labels, numerical changes and source identity.
-Build the exact final revision when the output format requires it.
-Inspect changed pages and nearby pages. Inspect the full output after a complete rewrite.
-A clean build records successful compilation.
-Record visual review and scientific checks separately in working notes.
-
-Deliver the revised artifact, the important changes and unresolved scientific questions.
-For a short passage, return the passage and the brief account the task requests.
-Describe actual calculations, source comparisons and page checks in that account.
-Keep review forms and self-assigned ratings in working notes.
-State which necessary checks remain open.
-Keep the review draft pending author acceptance.
-Stop after a complete revision, review and repair pass unless the user requests further work.
-Reopen accepted text when new evidence or an instruction justifies a change.
-
-## Worked examples
-
-The repository includes two original synthetic cases:
-`examples/gram-matrix/` and `examples/paired-results/`.
-Their inputs, revised passages and decisions show the procedure in use.
-Read an example when its subject matches the task.
-Installed skills remain self-contained through the references above.

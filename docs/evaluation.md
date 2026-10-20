@@ -1,5 +1,36 @@
 # Evaluation record
 
+## Version 0.2.0: full transfer
+
+The initial package condensed the source guidance too far.
+Its rule destinations did not establish preservation of the conditions, critic briefs, templates and teaching lessons.
+Version 0.2.0 restores those resources and records the authority decisions for older style instructions.
+
+The private audit covers all 46 source files and eleven additional style or protocol sources.
+It maps 56 method and rule sections, all 32 stable rules and all 66 feedback records.
+It retains eight revision lessons, eight boundary lessons and sixteen contrast cases through labelled synthetic adaptations.
+The public package excludes private quotations, manuscript passages and local history.
+Source coverage remains distinct from writing quality.
+
+Two fresh assistants completed the same synthetic preparation task, using the frozen 0.1.0 skill or the expanded skill.
+Both extracted the scientific account, preserved the proof gap and separated planned work from measured results.
+The baseline reported three missing explicit style rules and missing preparation templates.
+The expanded trial retrieved the noun-cluster rule, adjacent-ending rule, scientific qualifiers and exact acceptance record.
+It used the installed contribution and definition templates and kept the packet before narrative planning.
+
+This is one development task with one response per condition.
+It checks retrieval and preparation behaviour. It supplies no comparative estimate of prose quality or general reliability.
+No blind reader preference test or matched runtime comparison was performed for this transfer.
+
+The local suite has fifteen passing checks, including package parity, relative links, installation and complete release contents.
+The official manifest validator accepts the skill.
+These checks establish distribution properties. The separate semantic review checks preservation of the source guidance.
+That review read the operative sources and compared their conditions, exceptions, templates and teaching mechanisms.
+It confirmed five repairs in the local style profile: terminology, conclusion order, prior-work comparison, source wrapping and advantage wording.
+The transfer now includes those details with their original scope.
+
+## Version 0.1.0: writing examples
+
 Version 0.1.0 uses two original synthetic development cases.
 They cover a false Gram-matrix claim and an inflated account of paired results.
 Fresh assistants received the same input packets with and without the skill.

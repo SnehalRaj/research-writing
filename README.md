@@ -1,7 +1,7 @@
 # Research Writing
 
 Turn raw drafts, theorem statements and data into research articles that readers can follow.
-The skill builds the argument, checks the evidence and revises the prose.
+The skill inventories contributions, defines the objects, checks the evidence and then builds the argument.
 
 It grew from Snehal Raj's iterative PhD writing and review.
 The public instructions generalise those lessons. The examples use original synthetic material.
@@ -41,6 +41,10 @@ The plugin namespace is `/research-writing:research-writing`.
 
 > Revise this complete article for clarity and connected reasoning. Preserve the numerical results and scientific assumptions. Give me the revised source, a PDF and a short change record.
 
+For a staged start, ask:
+
+> Read the complete source set. Extract all contributions and their evidence status. Map the definitions and dependencies before proposing prose or critics.
+
 The skill also handles raw results and theorem drafts.
 For a local wording change, it uses a short route.
 It keeps scientific checks, editorial review and author acceptance separate.
@@ -51,6 +55,11 @@ It keeps scientific checks, editorial review and author acceptance separate.
 - [Paired experimental results](examples/paired-results/README.md): raw counts become a correctly scoped results passage.
 
 Each example contains the raw draft, the evidence, the revision and the important decisions.
+
+The installed [reference index](skills/research-writing/references/transfer-index.md) links the full method and seven rule chapters.
+It also includes detailed critic briefs, reusable templates and 66 coded feedback lessons.
+The style profile preserves the full author rules and their scientific exceptions.
+Private teaching passages have labelled synthetic adaptations.
 
 ## Development
 
@@ -76,6 +85,6 @@ Review [the contribution rules](CONTRIBUTING.md) before changing the skill.
 
 ## Status
 
-Version 0.1.0 is an initial release candidate.
-It includes portable instructions, two worked examples and local distribution checks.
+Version 0.2.0 expands the initial release candidate with the complete reusable guidance.
+The evaluation record separates source coverage, distribution checks and writing-quality evidence.
 User review determines whether a revised article meets its purpose.

@@ -1,0 +1,268 @@
+{
+  "version": "0.2.0",
+  "scope": "Reusable rules; private evidence is recorded separately.",
+  "rules": [
+    {
+      "id": "N01",
+      "title": "Give the reader a question worth answering",
+      "destination": "rules/01-research-argument.md",
+      "preservation_checks": [
+        "Reader difficulty and purpose of the method remain explicit."
+      ]
+    },
+    {
+      "id": "N02",
+      "title": "Give each paragraph one job and each transition a reason",
+      "destination": "rules/01-research-argument.md",
+      "preservation_checks": [
+        "Each paragraph has a job.",
+        "Sentence relations carry reasons; connectors alone cannot repair gaps."
+      ]
+    },
+    {
+      "id": "N03",
+      "title": "State the author's research choice",
+      "destination": "rules/01-research-argument.md",
+      "preservation_checks": [
+        "Preserve the author's reason for the research choice."
+      ]
+    },
+    {
+      "id": "N04",
+      "title": "Recall the background that the current argument needs",
+      "destination": "rules/01-research-argument.md",
+      "preservation_checks": [
+        "Recall the background needed now and verify its cross-reference."
+      ]
+    },
+    {
+      "id": "N05",
+      "title": "Lead with the supported result",
+      "destination": "rules/01-research-argument.md",
+      "preservation_checks": [
+        "State supported findings with comparator and scope.",
+        "Keep predictive performance separate from device agreement."
+      ]
+    },
+    {
+      "id": "N06",
+      "title": "Make the ending answer the opening",
+      "destination": "rules/01-research-argument.md",
+      "preservation_checks": [
+        "The ending answers the current opening.",
+        "Preserve useful navigation at its proper level."
+      ]
+    },
+    {
+      "id": "E01",
+      "title": "Give the construction before its parts",
+      "destination": "rules/02-exposition-and-terminology.md",
+      "preservation_checks": [
+        "Purpose and whole construction precede components."
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "Define each object before using it",
+      "destination": "rules/02-exposition-and-terminology.md",
+      "preservation_checks": [
+        "Name, symbol, space and role precede use.",
+        "Check captions, abstract and moved definitions."
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "Give equations an explanatory role",
+      "destination": "rules/02-exposition-and-terminology.md",
+      "preservation_checks": [
+        "Explain equation purpose and consequence.",
+        "Use consistent resource units and precision targets."
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "Build diagrams in the reader's learning order",
+      "destination": "rules/02-exposition-and-terminology.md",
+      "preservation_checks": [
+        "Diagrams follow concept dependencies and preserve source credit."
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "Give related terms explicit conditions of use",
+      "destination": "rules/02-exposition-and-terminology.md",
+      "preservation_checks": [
+        "Equivalences retain conventions, connectivity, ordering and subspace conditions."
+      ]
+    },
+    {
+      "id": "C01",
+      "title": "Label the kind of claim",
+      "destination": "rules/03-claims-proofs-evidence.md",
+      "preservation_checks": [
+        "Separate theorem, prior result, observation, interpretation and proposal."
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "Carry assumptions into the actual claim",
+      "destination": "rules/03-claims-proofs-evidence.md",
+      "preservation_checks": [
+        "The printed claim retains assumptions, quantifiers and tested scope."
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Verify the source and its use",
+      "destination": "rules/03-claims-proofs-evidence.md",
+      "preservation_checks": [
+        "Verify primary source identity and exact support for its use."
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "Verify the object that the experiment computes",
+      "destination": "rules/03-claims-proofs-evidence.md",
+      "preservation_checks": [
+        "Trace the implemented object, data version, metric and aggregation."
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Check proofs with independent evidence",
+      "destination": "rules/03-claims-proofs-evidence.md",
+      "preservation_checks": [
+        "Keep independent proof checks, failed cases and tolerances.",
+        "Finite checks remain finite evidence."
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "Give citations the work they can perform",
+      "destination": "rules/03-claims-proofs-evidence.md",
+      "preservation_checks": [
+        "Citations support the associated claim and preserve useful attribution."
+      ]
+    },
+    {
+      "id": "X01",
+      "title": "Cut empty requirements and significance claims",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Replace significance claims with a concrete requirement or implication."
+      ]
+    },
+    {
+      "id": "X02",
+      "title": "Name useful future work",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Name the future study and the question it would answer."
+      ]
+    },
+    {
+      "id": "X03",
+      "title": "Put detail where the reader needs it",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Keep a destination for each necessary contribution and condition."
+      ]
+    },
+    {
+      "id": "X04",
+      "title": "Remove repeated jobs, not every repeated word",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Cut repeated jobs while retaining necessary definitions and navigation."
+      ]
+    },
+    {
+      "id": "X05",
+      "title": "Preserve distinctions that change meaning",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Preserve distinctions among objects, estimators, metrics and evidence types."
+      ]
+    },
+    {
+      "id": "L01",
+      "title": "Use a clear actor and a precise verb",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Use an actor and verb that name the actual scientific relation."
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Avoid formulaic turns of phrase",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Remove rhetorical correction, filler, fragments and mechanical emphasis."
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Use style metrics as prompts for reading",
+      "destination": "rules/04-editing-and-compression.md",
+      "preservation_checks": [
+        "Metrics prompt contextual reading; scores cannot establish quality or acceptance."
+      ]
+    },
+    {
+      "id": "V01",
+      "title": "Place each figure with the claim it supports",
+      "destination": "rules/05-figures-and-proof-presentation.md",
+      "preservation_checks": [
+        "Keep the figure near its supporting claim and inspect the rendered pages."
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "Make captions self-contained at the right level",
+      "destination": "rules/05-figures-and-proof-presentation.md",
+      "preservation_checks": [
+        "Captions retain metric, units, uncertainty and relevant conditions."
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "Present formal results consistently",
+      "destination": "rules/05-figures-and-proof-presentation.md",
+      "preservation_checks": [
+        "Formal statements retain assumptions, proof pointers and consistent presentation."
+      ]
+    },
+    {
+      "id": "P01",
+      "title": "Record the scope of each approval",
+      "destination": "rules/06-author-control-and-revision.md",
+      "preservation_checks": [
+        "Acceptance records the exact unit, version, response and accepted scope."
+      ]
+    },
+    {
+      "id": "P02",
+      "title": "Preserve a recoverable baseline",
+      "destination": "rules/06-author-control-and-revision.md",
+      "preservation_checks": [
+        "Preserve and restore the chosen baseline when the direction is rejected."
+      ]
+    },
+    {
+      "id": "P03",
+      "title": "Keep readiness states separate",
+      "destination": "rules/06-author-control-and-revision.md",
+      "preservation_checks": [
+        "Evidence, editorial readiness, layout and author acceptance remain separate."
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "Use critics as evidence-producing reviewers",
+      "destination": "rules/06-author-control-and-revision.md",
+      "preservation_checks": [
+        "Critics report passages, evidence and reasons, including reasons to keep text."
+      ]
+    }
+  ]
+}
