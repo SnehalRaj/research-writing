@@ -61,7 +61,7 @@ Carry across the explanatory choices that fit the article's reader and evidence.
 
 ## Structural techniques from the reference notes
 
-These are editorial lenses drawn from reference theses. They are optional techniques, not the named writers' current opinions.
+These optional editorial techniques concern structure and explanation.
 
 | Lens | Useful technique | Boundary |
 |---|---|---|

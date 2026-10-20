@@ -3,9 +3,6 @@
 Turn raw drafts, theorem statements and data into research articles that readers can follow.
 The skill inventories contributions, defines the objects, checks the evidence and then builds the argument.
 
-It grew from Snehal Raj's iterative PhD writing and review.
-The public instructions generalise those lessons. The examples use original synthetic material.
-
 ## Install
 
 Requires Python 3.10 or later for the installer. The writing skill itself uses your assistant's tools.
@@ -85,6 +82,10 @@ Review [the contribution rules](CONTRIBUTING.md) before changing the skill.
 
 ## Status
 
-Version 0.2.0 expands the initial release candidate with the complete reusable guidance.
+Version 0.2.1 includes the complete reusable guidance.
 The evaluation record separates source coverage, distribution checks and writing-quality evidence.
 User review determines whether a revised article meets its purpose.
+
+## Disclaimer
+
+This skill grew out of Snehal Raj's personal research endeavours.

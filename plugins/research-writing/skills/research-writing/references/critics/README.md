@@ -2,7 +2,7 @@
 
 Reusable guide. This guide transfers an earlier writing method. Its review judgements have no independent accuracy benchmark.
 
-These briefs are proposed reusable tools drawn from a private revision history.
+These briefs are proposed reusable review tools.
 Their transfer does not install agents or establish performance on an independent document set.
 Use them on a section with enough surrounding text to judge its argument.
 

@@ -128,22 +128,23 @@ State a result before the concrete next study. Name what future work would test 
 Keep limits that follow from the metric or theorem in the explanation itself.
 Avoid a generic disclaimer after every result.
 
-The original thesis profile uses “we”, “our” and “us”. Preserve another document's chosen voice.
-That profile uses “quantum machine learning” in headings and prose.
+The following conventions are optional. Apply them when they match the author's brief.
+For first-person plural, use “we”, “our” and “us” consistently.
+Use “quantum machine learning” in headings and prose when the author prefers that term.
 Preserve exact published titles when citing external works.
-The original thesis treats quantum advantage as a research goal. Use “seeks” for that goal.
-Preserve the evidence status when another document makes an advantage claim.
-Its contribution chapters put their main figure at the top of the second page.
-That placement is a thesis choice. Choose article placement from its format and argument.
-The thesis groups related work by ideas and usually targets about one page per related-work subsection.
+When quantum advantage is a research goal, use “seeks” to describe that goal.
+Preserve the evidence status of each advantage claim.
+One possible convention places a contribution chapter's main figure at the top of its second page.
+Choose figure placement from the document's format and argument.
+Group related work by ideas. About one page can serve as an initial target for a related-work subsection.
 Set article length targets from the venue and the comparison the reader needs.
-The thesis conclusion starts with the contributions and their evidence.
+One conclusion order starts with the contributions and their evidence.
 It then relates them to prior work, states limits and names useful next studies.
-It ends with the thesis context: earlier chapters, the present contribution and questions that later chapters take up.
-Use this local order when it fits the document's role.
+For a chapter, the ending can connect earlier chapters, the present contribution and questions that later chapters take up.
+Use this order when it fits the document's role.
 Present the author's contribution directly while preserving collaborator roles and source credit.
 Use self-citations where omitted details make them useful. Keep full provenance in working notes.
-The thesis source profile wraps LaTeX lines at 80 columns for precise review locators.
+For LaTeX source, 80-column wrapping can make review locators precise.
 Preserve commands, comment markers and verbatim blocks during wrapping.
 Check that a whitespace-only format pass preserves the rendered text.
 

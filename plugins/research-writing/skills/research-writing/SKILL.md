@@ -4,7 +4,7 @@ description: Use when turning raw research notes, model drafts, theorem statemen
 license: MIT
 metadata:
   author: Snehal Raj
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Research writing
@@ -46,7 +46,7 @@ Then select the references the task needs:
 | Compression, source detail and article length | [Editing and compression](references/rules/04-editing-and-compression.md) |
 | Figures, tables, proof placement and rendered output | [Figures and proofs](references/rules/05-figures-and-proof-presentation.md) |
 | Baseline recovery, author decisions and acceptance | [Author control](references/rules/06-author-control-and-revision.md) |
-| Adapt a thesis method to a research article | [Paper adaptation](references/rules/07-adapting-the-method-to-papers.md) |
+| Adapt a long research document to an article | [Paper adaptation](references/rules/07-adapting-the-method-to-papers.md) |
 | Narrative and paragraph working forms | [Narrative templates](references/templates/01-narrative-and-paragraphs.md) |
 | Claims, revisions and exact acceptance records | [Claim and revision templates](references/templates/02-claims-and-revisions.md) |
 | Expert review after the inventories | [Critic briefs](references/critics/README.md) |

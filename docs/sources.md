@@ -1,8 +1,6 @@
 # Sources and design choices
 
-Snehal Raj developed this method through iterative thesis writing, scientific audits and author review.
-Private working records preserve the detailed feedback and revision history.
-The public skill generalises the procedure and uses original synthetic examples.
+The package contains reusable research-writing guidance and original synthetic examples.
 
 Version 0.2.0 preserves the full reusable source material through [the reference index](../skills/research-writing/references/transfer-index.md).
 The transfer covers the method, seven rule chapters, six critic guides and all structured templates.

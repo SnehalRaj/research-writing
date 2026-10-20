@@ -2,7 +2,7 @@
 
 Use this chapter with the [method](../method.md) and [claim checks](03-claims-proofs-evidence.md).
 Treat paper adaptation as guidance whose usefulness needs evaluation on the actual task.
-A transfer of thesis lessons alone establishes no validation for a separate paper-writing system.
+The paper-writing procedure needs its own validation.
 
 Complete the source reading, contribution inventory and definition dependencies before choosing the paper's narrative.
 Use the [inventory template](../templates/03-contributions-and-definitions.md) to retain every candidate and its evidence status.

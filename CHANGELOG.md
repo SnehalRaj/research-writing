@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1
+
+- Simplify the project background and add a brief disclaimer at the end of the README.
+- Present optional document conventions without personal project history.
+
 ## 0.2.0
 
 - Transfer the full method, seven rule chapters, critic briefs and structured templates.

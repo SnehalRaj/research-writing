@@ -1,6 +1,6 @@
 # Failures and boundaries
 
-Every scenario below is an original synthetic adaptation. These scenarios preserve lessons from a private revision history.
+Every scenario below is an original synthetic teaching example.
 The scenarios describe possible decisions; they report no new experiment or measured critic performance.
 
 <a id="b01"></a>

@@ -2,8 +2,7 @@
 
 The package retains the reusable writing guidance through linked modules.
 The entrypoint loads the detail relevant to the current task.
-The original source folder also contains private history, quotations and extraction code.
-Those records remain in the private audit.
+Teaching cases use synthetic material. Source checks remain separate from the installed guidance.
 
 ## Guidance coverage
 
@@ -30,9 +29,8 @@ Each case identifies its synthetic status.
 The templates retain fields for scientific scope, evidence, exact author responses and accepted scope.
 The preparation stage precedes a narrative, rewrite or expert critic assignment.
 
-The private audit records per-source hashes, section locators, destinations and adaptation reasons.
-It covers all 46 files in the source retrospective and the additional style sources.
-Source feedback and manuscript quotations remain private.
+Coverage checks record source identities, rule destinations and adaptation reasons.
+Keep private feedback and manuscript quotations outside public teaching material.
 Institutional procedures, old deadlines and personal details do not become universal article-writing instructions.
 
 ## How to check the transfer
