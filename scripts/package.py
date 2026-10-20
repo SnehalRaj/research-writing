@@ -4,13 +4,11 @@ import json
 import shutil
 import sys
 import zipfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "skills" / "research-writing"
 COPY = ROOT / "plugins" / "research-writing" / "skills" / "research-writing"
-FILES = ("README.md", "LICENSE", "CONTRIBUTING.md", "CHANGELOG.md", "VERSION", ".gitignore")
-DIRECTORIES = ("skills", "plugins", ".claude-plugin", "examples", "scripts", "tests", ".github", "docs")
 
 
 def tree(path):
@@ -55,15 +53,21 @@ def check():
 
 
 def public_files():
-    paths = [ROOT / name for name in FILES]
-    for name in DIRECTORIES:
-        directory = ROOT / name
-        tree(directory)
-        paths.extend(p for p in directory.rglob("*") if p.is_file() and
-                     "__pycache__" not in p.parts and p.suffix != ".pyc")
-    for path in sorted(set(paths)):
-        if not path.is_file() or path.is_symlink():
-            raise ValueError("A required public file is missing or is a symlink.")
+    entries = (ROOT / "release-files.txt").read_text().splitlines()
+    if not entries or len(entries) != len(set(entries)):
+        raise ValueError("The release manifest must contain unique file paths.")
+    for entry in entries:
+        relative = PurePosixPath(entry)
+        if not entry or relative.is_absolute() or ".." in relative.parts or str(relative) != entry:
+            raise ValueError("The release manifest contains an invalid relative path.")
+        path = ROOT / relative
+        for part in (path, *path.parents):
+            if part == ROOT:
+                break
+            if part.is_symlink():
+                raise ValueError("A release path contains a symlink.")
+        if not path.is_file():
+            raise ValueError("A required public file is missing.")
         yield path
 
 

@@ -18,6 +18,8 @@ Read the complete target before judging its structure or style.
 Read the sources needed for the claims you will change.
 Use existing author instructions and accepted passages as the authority on voice.
 Record the audience, output format, source version and permitted changes.
+Save a recoverable baseline before a substantial revision.
+Restore the author's chosen baseline if they reject the direction.
 Infer routine choices from the material. Ask only when a missing answer affects the work.
 A request to revise a complete draft authorises a complete review draft.
 Keep final author acceptance separate from permission to draft.
@@ -51,6 +53,8 @@ Write a short brief in working notes:
 - What question does the reader need answered, and why does it matter?
 - What answer can the available contribution and evidence support?
 
+Use the author's account of the research choice when it is available.
+Ask for the missing reason when the material leaves that choice unclear.
 Give each section a reader question and each paragraph a distinct purpose.
 Explain why the method follows from the problem and why the result answers the question.
 Name the relation between neighbouring sentences. Supply a missing reason before cutting words.
@@ -59,6 +63,8 @@ Avoid a fixed template when the contribution needs a different order.
 Introduce the model or mechanism before its parts.
 Define terms and symbols at first use.
 Explain an equation's purpose before displaying it and its consequence afterwards.
+Keep the facts needed to follow a correction in the research passage itself.
+A short counterexample belongs there when it explains why the corrected condition is needed.
 Use precise scientific terms when plain substitutes would change the meaning.
 Put the scientific point before the figure reference.
 
@@ -84,6 +90,7 @@ Keep the scientific limits, citations and reproducibility details where readers 
 ## Review and verify
 
 Read [review.md](references/review.md).
+For figures, formal results or typeset output, also read [presentation.md](references/presentation.md).
 Review scientific support, argument, exposition and rendered presentation separately.
 A critic reports the exact passage, the reason and the relevant evidence.
 A critic can recommend keeping a passage.
@@ -95,10 +102,13 @@ Run available checks for citations, labels, numerical changes and source identit
 Build the exact final revision when the output format requires it.
 Inspect changed pages and nearby pages. Inspect the full output after a complete rewrite.
 A clean build records successful compilation.
-Record visual review and scientific checks separately.
+Record visual review and scientific checks separately in working notes.
 
 Deliver the revised artifact, the important changes and unresolved scientific questions.
-State which checks ran and which remain open.
+For a short passage, return the passage and the brief account the task requests.
+Describe actual calculations, source comparisons and page checks in that account.
+Keep review forms and self-assigned ratings in working notes.
+State which necessary checks remain open.
 Keep the review draft pending author acceptance.
 Stop after a complete revision, review and repair pass unless the user requests further work.
 Reopen accepted text when new evidence or an instruction justifies a change.

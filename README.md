@@ -15,7 +15,7 @@ Choose the destination your installation uses for personal skills.
 Codex:
 
 ```sh
-python3 scripts/install.py --platform codex --dest "$HOME/.codex/skills"
+python3 scripts/install.py --platform codex --dest "$HOME/.agents/skills"
 ```
 
 Claude Code:
@@ -69,7 +69,7 @@ To create a release archive outside the repository:
 python3 scripts/package.py --archive ../research-writing.zip
 ```
 
-The archive uses an explicit public file list.
+The archive includes only the reviewed paths in `release-files.txt`.
 Review [the contribution rules](CONTRIBUTING.md) before changing the skill.
 [Evaluation](docs/evaluation.md) records the checks and their limits.
 [Sources](docs/sources.md) explains the method's origin and external references.

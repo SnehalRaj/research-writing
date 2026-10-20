@@ -1,30 +1,9 @@
-## Research passage
+Across five matched training seeds, the candidate achieved 73.0% mean accuracy, compared with 72.0% for the baseline. The mean paired gain was 1.0 percentage point, a 1.39% relative increase over the baseline mean. The candidate improved accuracy in four seeds and reduced accuracy in one. Paired differences ranged from −1 to +2 percentage points.
 
-On one synthetic classification task, the candidate averaged 73% accuracy across five matched training seeds, compared with 72% for the baseline. Both methods used the same split and training budget. Each run used the same held-out set of 100 items.
+Both methods used the same split and training budget on one synthetic classification task. Each run reused the same held-out set of 100 items. The result covers these five runs on that fixed test set. Statistical significance and resource savings remain unassessed.
 
-The mean gain was 1 percentage point, or about 1.39% relative to the baseline. The candidate improved in four seeds and lost one percentage point in the remaining seed. The paired changes ranged from −1 to +2 percentage points. These results show a small mean accuracy gain on this task and held-out set. They leave statistical significance and performance across tasks unresolved. The supplied measurements provide no evidence of reduced resource use.
+**Edits and calculations.** The baseline counts sum to 360, and the candidate counts sum to 365. Dividing each sum by \(5\times100\) gives mean accuracies of 72.0% and 73.0%. The paired differences are \(2,1,-1,2,1\) percentage points, with mean \((2+1-1+2+1)/5=1.0\). The relative increase is \((73-72)/72\times100=1.39\%\), rounded to two decimal places.
 
-## Edits and calculations
+I replaced the draft's 10% improvement with the measured scale and replaced its consistency claim with the four gains and one loss. All five seeds share the same 100 test items. The denominator \(5\times100\) computes the mean accuracy; it does not represent 500 independent test items.
 
-I calculated each run's accuracy as its correct count divided by 100. The seed means are
-
-\[
-\bar A_{\mathrm{baseline}}
-=\frac{71+72+70+74+73}{5\times100}
-=0.72,
-\]
-
-\[
-\bar A_{\mathrm{candidate}}
-=\frac{73+73+69+76+74}{5\times100}
-=0.73.
-\]
-
-The paired changes, in seed order, are \((2,1,-1,2,1)\) percentage points. Their mean is \(1\) percentage point. The relative gain is \((0.73-0.72)/0.72\times100\approx1.39\%\). The denominators above count 500 evaluations across repeated runs on the same 100 items.
-
-- Replaced the draft's “10%” improvement with the verified absolute and relative gains.
-- Replaced “consistently and significantly outperforms” with the mean gain and the observed variation across paired seeds. No significance test or equivalence margin was specified, so I made no significance or equivalence claim.
-- Removed the claims of reduced resource costs and superior generalisation across tasks. The supplied files contain no resource measurements or additional tasks. They also contain no per-item predictions.
-- Preserved the shared split, equal training budget, five matched seeds and fixed test set. The repeated runs describe variation across these training seeds on that set.
-
-I verified the counts, means and paired differences with Python using exact fractions. The source fidelity, descriptive calculations, argument and exposition pass the review. I checked the Markdown and equations in source; rendered presentation remains unchecked. Author acceptance is pending.
+I removed claims of statistical significance and lower resource costs. The supplied files contain neither a specified significance test nor resource measurements. The single synthetic task also leaves performance across tasks unmeasured. I report descriptive differences without a significance or equivalence claim; no equivalence margin was specified.

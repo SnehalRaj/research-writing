@@ -21,6 +21,8 @@ Open a section with the context, problem or principle its reader needs.
 Choose a heading that names the subject.
 Use related work to explain the research choice and comparison.
 
+Keep a correction's explanation in the passage that the reader will see.
+Move the history of checking that explanation into notes.
 Short sentences still need connected reasoning.
 Read a revision aloud and check whether the original reasons survive.
 A useful recap can support an independent reading of a section.
@@ -47,7 +49,8 @@ Check which use the sentence makes.
 Place a condition beside the claim that needs it.
 Keep a concrete limit when it changes the result's interpretation.
 Cut a repeated caution after the limit is already clear.
-End with the contribution and a useful next question.
+Make the conclusion answer the opening question.
+State the contribution and evidence, then a useful next question.
 Name the proposed experiment or derivation and explain what it would resolve.
 
 ## Compression

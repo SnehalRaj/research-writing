@@ -5,7 +5,7 @@ A full article needs an argument map, a claim record and a verified change recor
 
 ## Distinct verdicts
 
-Record pass, revise, unchecked or not applicable for each relevant dimension:
+In working notes, record pass, revise, unchecked or not applicable for each relevant dimension:
 
 | Dimension | Question |
 |---|---|
@@ -17,6 +17,8 @@ Record pass, revise, unchecked or not applicable for each relevant dimension:
 | Author acceptance | Has the author accepted this exact revision? |
 
 Give a locator and reason for each revise or unchecked verdict.
+In the requested change account, report the evidence for completed checks.
+A sentence that awards the response a passing grade adds no evidence.
 A scientific blocker keeps the affected claim open.
 
 ## Critic finding

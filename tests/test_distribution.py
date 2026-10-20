@@ -81,6 +81,35 @@ class DistributionTests(unittest.TestCase):
                 if ":" not in target and not target.startswith("#"):
                     self.assertTrue((path.parent / target.split("#")[0]).exists(), f"{path}: {target}")
 
+    def test_release_excludes_unlisted_local_files(self):
+        import shutil
+        import zipfile
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            copy = root / "source"
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            local = copy / "examples/.evaluation/private-review.txt"
+            local.parent.mkdir()
+            local.write_text("local review material")
+            archive = root / "release.zip"
+            result = subprocess.run([sys.executable, str(copy / "scripts/package.py"), "--archive", str(archive)], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            with zipfile.ZipFile(archive) as bundle:
+                self.assertNotIn("research-writing/examples/.evaluation/private-review.txt", bundle.namelist())
+
+    def test_release_rejects_parent_path_in_manifest(self):
+        import shutil
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            copy = root / "source"
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            (root / "outside.txt").write_text("outside the public source")
+            manifest = copy / "release-files.txt"
+            previous = manifest.read_text() if manifest.exists() else ""
+            manifest.write_text(previous + "../outside.txt\n")
+            result = subprocess.run([sys.executable, str(copy / "scripts/package.py"), "--archive", str(root / "release.zip")], capture_output=True, text=True)
+            self.assertNotEqual(result.returncode, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

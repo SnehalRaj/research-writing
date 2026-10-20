@@ -18,5 +18,7 @@ Keep useful qualifications and accepted author choices.
 Run the distribution tests and `python3 scripts/package.py --sync`.
 Then run `python3 scripts/package.py --check`.
 Update the changelog and version together for a release.
+Add each intended release file to `release-files.txt` after review.
+Files outside that manifest remain outside the release archive.
 Review every public file and the Git history before publication.
 Keep human author acceptance separate from a passing test.
